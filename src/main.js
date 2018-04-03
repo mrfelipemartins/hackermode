@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 
 import 'buefy/lib/buefy.css'
+import 'font-awesome/css/font-awesome.css'
 import '@/assets/css/main.scss'
 import Vue from 'vue'
 import App from './App'
@@ -19,7 +20,7 @@ Vue.component('app-navbar', Navbar)
 Vue.use(VueSocketIO, 'http://localhost:3000')
 
 let app
-let config = {
+var config = {
   apiKey: 'AIzaSyDQ73pcIAI_3I9msZnFdu8C7b34hw5IL9s',
   authDomain: 'hackermode-b711d.firebaseapp.com',
   databaseURL: 'https://hackermode-b711d.firebaseio.com',

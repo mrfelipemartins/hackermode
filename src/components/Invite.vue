@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-desktop is-vcentered">
-    <div class="column is-half is-offset-one-quarter">
+    <div class="column is-4 is-offset-4">
       <section class="hero">
         <div class="hero-body">
           <div class="container">
@@ -25,6 +25,7 @@
         </div>
         <a :class="(loading) ? 'button is-success is-loading' : 'button is-success'" @click="verifyCode()">Cadastrar</a>
       </div>
+      <p>Já possui uma conta? <router-link to="/login">Entre aqui</router-link> </p>
     </div>
   </div>
 </template>

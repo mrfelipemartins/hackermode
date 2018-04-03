@@ -1,5 +1,5 @@
 {
-  "name": "hkmode",
+  "name": "HackerMode",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Felipe Martins <webmaster@savvystudios.com.br>",
@@ -18,6 +18,7 @@
     "bufferutil": "^3.0.3",
     "express": "^4.15.2",
     "firebase": "^4.12.1",
+    "font-awesome": "^4.7.0",
     "particles.js": "^2.0.0",
     "socket.io": "^2.1.0",
     "socket.io-client": "^2.1.0",

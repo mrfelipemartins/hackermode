@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Invite from '@/components/Invite'
 import Login from '@/components/Login'
 import Register from '@/components/Register'
-
+import Me from '@/components/Me'
 Vue.use(Router)
 
 export default new Router({
@@ -22,6 +22,11 @@ export default new Router({
       path: '/register',
       name: 'Regsiter',
       component: Register
+    },
+    {
+      path: '/me',
+      name: 'Dashboard',
+      component: Me
     }
   ]
 })

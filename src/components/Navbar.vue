@@ -17,7 +17,7 @@
           <router-link class="navbar-item" to="/">
             [ home ]
           </router-link>
-          <router-link class="navbar-item" to="/register">
+          <router-link class="navbar-item" to="/join">
             [ cadastro ]
           </router-link>
           <router-link to="/about" class="navbar-item">
