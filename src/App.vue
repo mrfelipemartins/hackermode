@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <app-navbar/>
-    <div class="container">
+    <div class="container" id="main">
       <router-view/>
     </div>
     <vue-particles color="#058000" linesColor="#058000" :linesWidth="2"
