@@ -18,6 +18,19 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      isConnected: false
+    }
+  },
+  sockets: {
+    connect () {
+      this.isConnected = true
+    },
+    disconnect () {
+      this.isConnected = false
+    }
+  }
 }
 </script>
